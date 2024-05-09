@@ -11,13 +11,13 @@
   min(Ab)
   
   # part 2
-  # N of llast three numeber of my id
+  # N of last three number of my id
   N<-Ab[c('last three numbers of id')]
   print(N%%50)
   
   # part 3
   # rnorm function
-  # the first and the second argumente is import becose with this with this argumets we declare random range number and moisture
+  # the first and the second argument is import become with this with this argumets we declare random range number and moisture
   MyNorm <- rnorm(n = 50, mean = Ab[c('age')], sd = 5)
   hist(MyNorm)
   
